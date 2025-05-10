@@ -29,7 +29,6 @@ body {
   height: 100%;
   background-color: #333;
   width: 45%;
-  background-image: url(https://m.media-amazon.com/images/I/91zTlD7AY1L.jpg);
   background-size: cover;
   background-position: top;
 }
@@ -69,6 +68,7 @@ body {
 .song-card .part1 {
   display: flex;
   justify-content: center;
+  pointer-events: none;
 }
 
 .song-card img {
